@@ -123,7 +123,7 @@ function is_order(num){
   return false
 }
 
-function next_order_value(min_dist=100){
+function next_order_value(min_dist=1000){
   var i = 0
   var num = parseInt(document.getElementById("quantity").value)
   console.log(num)
